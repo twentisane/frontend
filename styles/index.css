@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    background-color:beige;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+/*Title*/
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+/* Main part*/
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 10px;
+    width: 20%;
+    box-shadow: 5px 7px 10px 2px rgb(0 0 0 / 20%);
+}
+
+.title{
+    position: absolute;
+    margin-top:530px;
+    font-weight: 600;
+}
+
+/* Main responsive*/
+/* Not finished yet :c*/
+
+/*@media screen and (max-width:800px){
+        .main{
+        align-items: center;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    
+    .item{
+        margin: 10px;
+        width: 50%;
+        object-fit:fill;
+        box-shadow: 0px 0px
+    }
+    
+    .project_preview{
+        height: 150px;
+
+    }
+    
+    .title{
+        margin-top:80px;
+        margin-left: -530px;
+        font-weight: 600;
+    }
+    
+    footer{
+        margin-top: -10px;
+    }
+    
+}
+
+*/
+    
+
+/*Footer*/
+
+footer{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.footer_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: black;
+}
